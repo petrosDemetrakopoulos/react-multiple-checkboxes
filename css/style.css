@@ -10596,25 +10596,6 @@ a.has-text-danger-dark:focus {
     );
   }
 }
-.hero.is-link {
-  background-color: #485fc7;
-  color: #fff;
-}
-.hero.is-link
-  a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
-.hero.is-link strong {
-  color: inherit;
-}
-.hero.is-link .title {
-  color: #fff;
-}
-.hero.is-link .subtitle {
-  color: rgba(255, 255, 255, 0.9);
-}
-.hero.is-link .subtitle a:not(.button),
-.hero.is-link .subtitle strong {
-  color: #fff;
-}
 @media screen and (max-width: 1023px) {
   .hero.is-link .navbar-menu {
     background-color: #485fc7;
@@ -10676,25 +10657,6 @@ a.has-text-danger-dark:focus {
     );
   }
 }
-.hero.is-info {
-  background-color: #3e8ed0;
-  color: #fff;
-}
-.hero.is-info
-  a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
-.hero.is-info strong {
-  color: inherit;
-}
-.hero.is-info .title {
-  color: #fff;
-}
-.hero.is-info .subtitle {
-  color: rgba(255, 255, 255, 0.9);
-}
-.hero.is-info .subtitle a:not(.button),
-.hero.is-info .subtitle strong {
-  color: #fff;
-}
 @media screen and (max-width: 1023px) {
   .hero.is-info .navbar-menu {
     background-color: #3e8ed0;
@@ -10703,48 +10665,6 @@ a.has-text-danger-dark:focus {
 .hero.is-info .navbar-item,
 .hero.is-info .navbar-link {
   color: rgba(255, 255, 255, 0.7);
-}
-.hero.is-info a.navbar-item:hover,
-.hero.is-info a.navbar-item.is-active,
-.hero.is-info .navbar-link:hover,
-.hero.is-info .navbar-link.is-active {
-  background-color: #3082c5;
-  color: #fff;
-}
-.hero.is-info .tabs a {
-  color: #fff;
-  opacity: 0.9;
-}
-.hero.is-info .tabs a:hover {
-  opacity: 1;
-}
-.hero.is-info .tabs li.is-active a {
-  color: #3e8ed0 !important;
-  opacity: 1;
-}
-.hero.is-info .tabs.is-boxed a,
-.hero.is-info .tabs.is-toggle a {
-  color: #fff;
-}
-.hero.is-info .tabs.is-boxed a:hover,
-.hero.is-info .tabs.is-toggle a:hover {
-  background-color: rgba(10, 10, 10, 0.1);
-}
-.hero.is-info .tabs.is-boxed li.is-active a,
-.hero.is-info .tabs.is-boxed li.is-active a:hover,
-.hero.is-info .tabs.is-toggle li.is-active a,
-.hero.is-info .tabs.is-toggle li.is-active a:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #3e8ed0;
-}
-.hero.is-info.is-bold {
-  background-image: linear-gradient(
-    141deg,
-    #208fbc 0%,
-    #3e8ed0 71%,
-    #4d83db 100%
-  );
 }
 @media screen and (max-width: 768px) {
   .hero.is-info.is-bold .navbar-menu {
@@ -10755,65 +10675,6 @@ a.has-text-danger-dark:focus {
       #4d83db 100%
     );
   }
-}
-.hero.is-success {
-  background-color: #48c78e;
-  color: #fff;
-}
-.hero.is-success
-  a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
-.hero.is-success strong {
-  color: inherit;
-}
-.hero.is-success .title {
-  color: #fff;
-}
-.hero.is-success .subtitle {
-  color: rgba(255, 255, 255, 0.9);
-}
-.hero.is-success .subtitle a:not(.button),
-.hero.is-success .subtitle strong {
-  color: #fff;
-}
-@media screen and (max-width: 1023px) {
-  .hero.is-success .navbar-menu {
-    background-color: #48c78e;
-  }
-}
-.hero.is-success .navbar-item,
-.hero.is-success .navbar-link {
-  color: rgba(255, 255, 255, 0.7);
-}
-.hero.is-success a.navbar-item:hover,
-.hero.is-success a.navbar-item.is-active,
-.hero.is-success .navbar-link:hover,
-.hero.is-success .navbar-link.is-active {
-  background-color: #3abb81;
-  color: #fff;
-}
-.hero.is-success .tabs.is-boxed a,
-.hero.is-success .tabs.is-toggle a {
-  color: #fff;
-}
-.hero.is-success .tabs.is-boxed a:hover,
-.hero.is-success .tabs.is-toggle a:hover {
-  background-color: rgba(10, 10, 10, 0.1);
-}
-.hero.is-success .tabs.is-boxed li.is-active a,
-.hero.is-success .tabs.is-boxed li.is-active a:hover,
-.hero.is-success .tabs.is-toggle li.is-active a,
-.hero.is-success .tabs.is-toggle li.is-active a:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #48c78e;
-}
-.hero.is-success.is-bold {
-  background-image: linear-gradient(
-    141deg,
-    #29b35e 0%,
-    #48c78e 71%,
-    #56d2af 100%
-  );
 }
 @media screen and (max-width: 768px) {
   .hero.is-success.is-bold .navbar-menu {
