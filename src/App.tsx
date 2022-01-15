@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import ListItem from './ListItem';
 import './App.css';
 
 
 function App() {
   const [state, setState] = React.useState<{ selections: string[] }>({ selections: [] });
-  const selections = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7', 'Item 8', 'Item 9']
+  const options = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7', 'Item 8', 'Item 9']
 
   function handleCheckboxChange(key: string) {
     let sel = state.selections
@@ -20,18 +19,17 @@ function App() {
     setState({
       selections: sel,
     })
-    console.log(state)
   }
 
   function checkboxItems() {
     return (
       <React.Fragment>
-        {selections.map((selection) => (
+        {options.map((option) => (
           <ListItem
-            key={selection}
-            text={selection}
-            handleOnChange={() => handleCheckboxChange(selection)}
-            selected={state.selections.includes(selection)}
+            key={option}
+            text={option}
+            handleOnChange={() => handleCheckboxChange(option)}
+            selected={state.selections.includes(option)}
           ></ListItem>
         ))}
       </React.Fragment>
