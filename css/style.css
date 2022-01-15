@@ -10551,41 +10551,6 @@ a.has-text-danger-dark:focus {
   background-color: #3c1e61;
   color: #fff;
 }
-.hero.is-primary .tabs a {
-  color: #fff;
-  opacity: 0.9;
-}
-.hero.is-primary .tabs a:hover {
-  opacity: 1;
-}
-.hero.is-primary .tabs li.is-active a {
-  color: #482474 !important;
-  opacity: 1;
-}
-.hero.is-primary .tabs.is-boxed a,
-.hero.is-primary .tabs.is-toggle a {
-  color: #fff;
-}
-.hero.is-primary .tabs.is-boxed a:hover,
-.hero.is-primary .tabs.is-toggle a:hover {
-  background-color: rgba(10, 10, 10, 0.1);
-}
-.hero.is-primary .tabs.is-boxed li.is-active a,
-.hero.is-primary .tabs.is-boxed li.is-active a:hover,
-.hero.is-primary .tabs.is-toggle li.is-active a,
-.hero.is-primary .tabs.is-toggle li.is-active a:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #482474;
-}
-.hero.is-primary.is-bold {
-  background-image: linear-gradient(
-    141deg,
-    #251352 0%,
-    #482474 71%,
-    #65268c 100%
-  );
-}
 @media screen and (max-width: 768px) {
   .hero.is-primary.is-bold .navbar-menu {
     background-image: linear-gradient(
@@ -10595,57 +10560,6 @@ a.has-text-danger-dark:focus {
       #65268c 100%
     );
   }
-}
-@media screen and (max-width: 1023px) {
-  .hero.is-link .navbar-menu {
-    background-color: #485fc7;
-  }
-}
-.hero.is-link .navbar-item,
-.hero.is-link .navbar-link {
-  color: rgba(255, 255, 255, 0.7);
-}
-.hero.is-link a.navbar-item:hover,
-.hero.is-link a.navbar-item.is-active,
-.hero.is-link .navbar-link:hover,
-.hero.is-link .navbar-link.is-active {
-  background-color: #3a51bb;
-  color: #fff;
-}
-.hero.is-link .tabs a {
-  color: #fff;
-  opacity: 0.9;
-}
-.hero.is-link .tabs a:hover {
-  opacity: 1;
-}
-.hero.is-link .tabs li.is-active a {
-  color: #485fc7 !important;
-  opacity: 1;
-}
-.hero.is-link .tabs.is-boxed a,
-.hero.is-link .tabs.is-toggle a {
-  color: #fff;
-}
-.hero.is-link .tabs.is-boxed a:hover,
-.hero.is-link .tabs.is-toggle a:hover {
-  background-color: rgba(10, 10, 10, 0.1);
-}
-.hero.is-link .tabs.is-boxed li.is-active a,
-.hero.is-link .tabs.is-boxed li.is-active a:hover,
-.hero.is-link .tabs.is-toggle li.is-active a,
-.hero.is-link .tabs.is-toggle li.is-active a:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #485fc7;
-}
-.hero.is-link.is-bold {
-  background-image: linear-gradient(
-    141deg,
-    #2959b3 0%,
-    #485fc7 71%,
-    #5658d2 100%
-  );
 }
 @media screen and (max-width: 768px) {
   .hero.is-link.is-bold .navbar-menu {
@@ -10708,57 +10622,6 @@ a.has-text-danger-dark:focus {
       #fff6a3 100%
     );
   }
-}
-@media screen and (max-width: 1023px) {
-  .hero.is-danger .navbar-menu {
-    background-color: #f14668;
-  }
-}
-.hero.is-danger .navbar-item,
-.hero.is-danger .navbar-link {
-  color: rgba(255, 255, 255, 0.7);
-}
-.hero.is-danger a.navbar-item:hover,
-.hero.is-danger a.navbar-item.is-active,
-.hero.is-danger .navbar-link:hover,
-.hero.is-danger .navbar-link.is-active {
-  background-color: #ef2e55;
-  color: #fff;
-}
-.hero.is-danger .tabs a {
-  color: #fff;
-  opacity: 0.9;
-}
-.hero.is-danger .tabs a:hover {
-  opacity: 1;
-}
-.hero.is-danger .tabs li.is-active a {
-  color: #f14668 !important;
-  opacity: 1;
-}
-.hero.is-danger .tabs.is-boxed a,
-.hero.is-danger .tabs.is-toggle a {
-  color: #fff;
-}
-.hero.is-danger .tabs.is-boxed a:hover,
-.hero.is-danger .tabs.is-toggle a:hover {
-  background-color: rgba(10, 10, 10, 0.1);
-}
-.hero.is-danger .tabs.is-boxed li.is-active a,
-.hero.is-danger .tabs.is-boxed li.is-active a:hover,
-.hero.is-danger .tabs.is-toggle li.is-active a,
-.hero.is-danger .tabs.is-toggle li.is-active a:hover {
-  background-color: #fff;
-  border-color: #fff;
-  color: #f14668;
-}
-.hero.is-danger.is-bold {
-  background-image: linear-gradient(
-    141deg,
-    #fa0a62 0%,
-    #f14668 71%,
-    #f7595f 100%
-  );
 }
 @media screen and (max-width: 768px) {
   .hero.is-danger.is-bold .navbar-menu {
