@@ -6,7 +6,7 @@ const CheckBox = styled.input`
   border-radius: 2px;
   border: solid 1px #c6c4d2;
   width: 5%;
-float: left;
+  float: left;
   background: ${(porps) => (porps.checked ? '#482474' : '#fbfcff')};
 `
 const Container = styled.div`
@@ -40,8 +40,7 @@ const ListItem: React.FC<{
           checked={selected}
           onChange={handleOnChange} 
         ></CheckBox>
-        <Description className="column" style={{width: '33%',
-            float:'left'}}>
+        <Description className="column" style={{width: '33%', float:'left'}}>
           {text}
         </Description>
       </Container>
